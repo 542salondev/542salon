@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(26, 24, 22, 0.85);
 }
 #header.header-transparent {
-  background: rgb(255 255 255 / 60%);
+  background: rgb(255 255 255 / 100%);
 }
 #header.header-scrolled {
   top: 0;
@@ -550,10 +550,10 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #5f5950;
+  color: black;
 }
 .section-title h2 span {
-  color: #5f5950;
+  color: black;
 }
 .section-title p {
   margin: 15px auto 0 auto;
@@ -630,7 +630,7 @@ section {
 .about .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #5f5950;
+  color: black;
 }
 .about .content h4 {
   font-size: 20px;
@@ -793,7 +793,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #6c665c;
+  color: black;
 }
 .why-us .box p {
   color: #aaaaaa;
@@ -872,7 +872,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #5f5950;
+  color: black;
 }
 .menu .menu-content span {
   background: #fff;
@@ -1165,7 +1165,7 @@ section {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #6c665c;
+  color: black;
   position: relative;
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
@@ -1437,7 +1437,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: rgb(0, 0, 0);
+  color: white;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1646,6 +1646,25 @@ figure.snip1174 .slide-in {
   position: relative;
   padding: 0;
 }
+
+.services-banner{
+  background: url("../img/interior/servicesbg2.png") top center; 
+}
+
+@media (max-width: 500px) {
+  .services-banner {
+    background: url("../img/interior/servicesbgmobile.png"); 
+    background-size: cover;
+    padding-top: 0!important;
+  }
+} 
+
+@media (max-width: 500px) {
+  .services-banner .container {
+    padding-top: 0!important;
+  }
+} 
+
 .banners:before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
